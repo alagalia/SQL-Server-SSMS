@@ -1,0 +1,1 @@
+SELECT e.FirstName + '.' + e.LastName +'@softuni.bg' FROM [dbo].[Employees] as e

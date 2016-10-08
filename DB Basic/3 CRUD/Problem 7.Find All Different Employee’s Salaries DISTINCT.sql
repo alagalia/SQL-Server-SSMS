@@ -1,0 +1,1 @@
+SELECT DISTINCT e.Salary FROM [dbo].[Employees] as e
