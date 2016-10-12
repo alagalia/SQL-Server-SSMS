@@ -14,4 +14,5 @@ ON a.AccountHolderId = ah.Id
 WHERE a.Id = @AccountId
 END
 
-EXEC usp_CalculateFutureValueForAccount 1, 10
+SELECT dbo.ufn_CalculateFutureValue(10000.00000000, 0.1, 5)
+EXEC usp_CalculateFutureValueForAccount 1, 0.1
